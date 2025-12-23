@@ -1,0 +1,18 @@
+/* PagingComponent.css */
+
+.paging-buttons {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .paging-buttons button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .paging-buttons span {
+    margin: 0 5px;
+  }
+  

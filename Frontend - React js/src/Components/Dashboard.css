@@ -1,0 +1,33 @@
+/* Dashboard.css */
+
+.button-container {
+    margin-top: 10px; /* Adjust the margin to add spacing between buttons */
+  }
+  
+  .dashboard-button {
+    background-color: #65defc; /* Change this to blue (#3498db) or your desired color */
+    color: #fff;
+    padding: 10px 15px;
+    margin-right: 10px; /* Adjust the margin to add spacing between buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #2980b9; /* Change this to the desired hover color */
+  }
+  
+
+  .view-all {
+  margin-left: 900px; /* Move View All to the right */
+}
+
+.view-all a {
+  color: #3498db; /* Change this to your desired text color */
+  text-decoration: none;
+  border: 1px solid #3498db; /* Add border for link outline, adjust color as needed */
+  padding: 10px 15px;
+  border-radius: 5px;
+}

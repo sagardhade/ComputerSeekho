@@ -1,0 +1,25 @@
+/* AdminLoginPage.css */
+.admin-login-container {
+    text-align: center;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust the gap value for your desired spacing */
+    margin-top: 20px; /* Add margin for spacing from the heading */
+  }
+  
+  .admin-button {
+    background-color: #28a745; /* Set your desired button color */
+    color: #fff; /* Set text color */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .admin-button:hover {
+    background-color: #218838; /* Set the hover color */
+  }
+  

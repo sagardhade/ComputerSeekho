@@ -1,0 +1,23 @@
+/* StaffLoginPage.css */
+.staff-login-container {
+    text-align: center;
+  }
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Adjust the gap value for your desired spacing */
+  }
+  
+  .standard-button {
+    background-color: #007bff; /* Set your desired button color */
+    color: #fff; /* Set text color */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .standard-button:hover {
+    background-color: #0056b3; /* Set the hover color */
+  }
+ 

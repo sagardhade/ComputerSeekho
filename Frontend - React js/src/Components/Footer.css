@@ -1,0 +1,48 @@
+/* Footer.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+  }
+  
+  /* Style for the copyright notice and first contact information */
+  li:first-child {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  /* Add a hover effect to the contact information */
+  li:not(:first-child):hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  /* Add some spacing and styling to make it more visually appealing */
+  li:not(:first-child) span {
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
